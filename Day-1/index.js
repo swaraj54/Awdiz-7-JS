@@ -7,7 +7,7 @@
 
 // name - ali - string
 // age  - 20 -  number 
-// yes/no     - boolean 
+// yes/no - true/false  - boolean 
 // confused  - undefined
 
 
