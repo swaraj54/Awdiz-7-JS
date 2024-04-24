@@ -60,7 +60,7 @@ if (age > 18) {
 // value 1 <= value 2
 // value 1 >= value 2
 // =   -> to assign value to varible
-// ==  -> to compare only datas
+// ==  -> to compare only data
 // === -> to compare with data and datatype
 
 var num1 = 10;
