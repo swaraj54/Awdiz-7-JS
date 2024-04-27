@@ -17,6 +17,8 @@
 // 1. if else
 // 2. switch
 
+
+
 // 2. Switch - conditional statement
 
 // switch(condition, 11){
@@ -58,11 +60,29 @@ console.log(first > second);
 console.log(first > third);
 console.log(second > third);
 
-console.log(30 > 20 && 20 > 10 && 3 > 10); //true && true && true ->
+console.log(30 > 20 && 20 > 10 && 3 > 10); //true && true && true -> true, false
 // if all values are true then only && operator will return true
 // if even one value found false then && operator will return false
 
-console.log(3 < 2 || 3 < 1 || 2 < 1); // true || true || true 
+console.log(3 < 2 || 3 < 1 || 2 < 1); // false || false || false  -> true, false
 // if even one true found then || operator will return true 
 // when all conditions are false then only it'll return false
+
+
+// Form -> number even or odd 
+
+// number -> required 
+// name 
+// email 
+// password 
+// confrimPassword
+
+
+if(number && name && email ){
+  "All vvalues are exist"
+}
+
+if(!number || !name || !email ){
+  "All vvalues are required."
+}
 
