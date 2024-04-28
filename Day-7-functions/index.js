@@ -61,8 +61,8 @@ function IncreaseNumberOfProduct() {
 }
 const price = IncreaseNumberOfProduct();
 
-// const number1 = 10;
-// const number2 = 20;
+const number1 = 10;
+const number2 = 20;
 
 // function Subtraction() {
 //   return;
@@ -182,13 +182,20 @@ for (var i = 33; i <= 76; i += 3) {
 
 // 120
 
-// Whats the addition of number from 23 to 89 with gap of 2 and number must be odd.
+Whats the addition of number from 23 to 89 with gap of 2 and number must be odd.
+
+1  + 2 = 3
+ 3  + 3 = 6
+6 + 4 = 10 
+10 + 5 =15
+
 
 var finalCount = 0;
 for (var i = 23; i <= 89; i += 2) {
   if (i % 2 === 1) {
     console.log(i);
     finalCount += i;
+    // finalCount = finalCount +  i
   }
 }
 console.log(finalCount);
