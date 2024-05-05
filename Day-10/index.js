@@ -1,12 +1,9 @@
 var array = [1, 2, 3, 4, 5];
 var target = 6;
-
 // 1 + 4 =  5
 // 2 +3  = 5
-
 // 1 4
 // 2 3
-
 function FindTarget(array, target) {
   for (var i = 0; i < array.length - 1; i++) {
     //   console.log(array[i], "i");
@@ -70,15 +67,20 @@ console.log(array);
 array.shift();
 console.log(array);
 
+
+
 var students = ["virat", "rohit", "rahul", "rishabh"];
-students.splice(1, 1, "Rahul");
-students.splice(2, 0, "Rishabh"); // ['v', R, Ri, r]
-students.splice(0, 1, "a"); // a R ri , r
-students.splice(3, 0, "b"); // a , r, ri, b,r
-console.log(students);
+// students.splice(1, 1, "Rahul");
+// students.splice(2, 0, "Rishabh"); // ['v', R, Ri, r]
+// students.splice(0, 1, "a"); // a R ri , r
+// students.splice(3, 0, "b"); // a , r, ri, b,r
+// console.log(students);
 
 const newArray = students.slice(0, -1);
 console.log(newArray);
+
+
+
 const todo = ["Do assignment", "Eat lunch", "Go home"];
 todo.splice(1, 1);
 console.log(todo);
@@ -108,10 +110,10 @@ console.log(array1);
 // };
 // Myfunction("Hii");
 
-// function MyFunction() {
-// }
-// MyFunction();
+function MyFunction() {
+}
+MyFunction();
 
-// const MyFunciton = () => {
-// };
-// MyFunciton();
+const MyFunciton = () => {
+};
+MyFunciton();
