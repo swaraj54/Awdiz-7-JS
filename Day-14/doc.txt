@@ -1,0 +1,15 @@
+Step 1  : find out middle element  
+
+step 2 : compare taget with middle element  -> if yes then return index 
+
+Step 3 : compare target is greater or lesser than middel element 
+
+        if element is greater than target then create new array to left or right 
+
+Step 4 : find middle element from new array, 
+
+Step 5 : compare taget with middle element  -> if yes then return index 
+
+Stel 6 : compare target is greater or lesser than middel element 
+
+if element is greater than target then create new array to left or right 
