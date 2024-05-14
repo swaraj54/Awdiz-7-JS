@@ -13,3 +13,9 @@ Step 5 : compare taget with middle element  -> if yes then return index
 Stel 6 : compare target is greater or lesser than middel element 
 
 if element is greater than target then create new array to left or right 
+
+
+Puma -> Navbar 
+Tata neu -> Navbar
+Airbnb -> Navbar , Home page , 
+ 
