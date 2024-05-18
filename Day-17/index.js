@@ -3,7 +3,7 @@ function getData() {
   // console.log("Inside function")
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const result = true; // backend api call ->  false
+      const result = fetch("https://fakestoreapi.com/products"); // backend api call ->  false
       if (result) {
         resolve("Data successfully recevied.");
       } else {
@@ -12,7 +12,6 @@ function getData() {
     }, 4000);
   });
 }
-
 getData()
   .then((response) => {
     console.log(response, "response");
